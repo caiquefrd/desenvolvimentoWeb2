@@ -30,11 +30,12 @@ app.get("/:nome", function (req: Request, res: Response) {
 
 */
 
+app.use("/imposto", function(req:Request, res:Response){
+  res.send("é roubo")
+} );
+
 app.use( function(req:Request, res:Response){
   res.send("Requisição desconhecida")
 } );
 
 
-app.use("/imposto", function(req:Request, res:Response){
-  res.send("é roubo")
-} );
