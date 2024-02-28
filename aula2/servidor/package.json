@@ -1,5 +1,5 @@
 {
-  "name": "desenvolvimentoweb2",
+  "name": "servidor",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,6 +15,6 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "@types/express": "github:types/express"
+    "@types/express": "^4.17.21"
   }
 }
