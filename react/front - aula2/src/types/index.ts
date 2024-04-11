@@ -1,0 +1,17 @@
+export interface Props {
+  result: CepProps;
+  setCep: Function;
+}
+
+export interface CepProps {
+  cep: string;
+  logradouro: string;
+  complemento: string;
+  bairro: string;
+  localidade: string;
+  uf: string;
+  ibge: string;
+  gia: string;
+  ddd: string;
+  siafi: string;
+}
