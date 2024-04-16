@@ -1,48 +1,48 @@
 import "./index.css";
-import trevo from "../../assets/trevo-megasena.png";
+import trevo from "../../assets/trevo-quina.png";
 import { useLoteria } from "../../hooks";
 
-export default function Megasena(){
-    const { megasena } = useLoteria();
+export default function Quina(){
+    const { quina } = useLoteria();
     
     return (
-        <div className="mega-bloco-principal">
+        <div className="quina-bloco-principal">
             <div>
-                <div className="mega-bloco-loteria">
+                <div className="quina-bloco-loteria">
                     <img src={trevo} alt="" />
-                    <span className="mega-nome-loteria">QUINA</span>
+                    <span className="quina-nome-loteria">QUINA</span>
                 </div>
-                <div className="mega-bloco-estimativa">
-                    <div className="mega-texto-estimativa"> 
+                <div className="quina-bloco-estimativa">
+                    <div className="quina-texto-estimativa"> 
                         Estimativa de prêmio do próximo concurso. 
-                        Sorteio em {megasena.dataProximoConcurso}:
+                        Sorteio em {quina.dataProximoConcurso}:
                     </div>
-                    <div className="mega-valor-estimativa"> 
-                        {megasena.valorEstimadoProximoConcurso.toLocaleString("pt-Br",{
+                    <div className="quina-valor-estimativa"> 
+                        {quina.valorEstimadoProximoConcurso.toLocaleString("pt-Br",{
                             style: "currency",
                             currency: "BRL"
                         })}
                     </div>
                 </div>
             </div>
-            <div className="mega-bloco-direita">
-                <div className="mega-linha-bola">
+            <div className="quina-bloco-direita">
+                <div className="quina-linha-bola">
                     {
-                        megasena.dezenas.map( dezena =>
-                                <div className="mega-bola" key={dezena}>{dezena}</div>
+                        quina.dezenas.map( dezena =>
+                                <div className="quina-bola" key={dezena}>{dezena}</div>
                              )
                     }
                 </div>
-                <div className="mega-texto-acumulou">
+                <div className="quina-texto-acumulou">
                     {
-                        megasena.quantidadeGanhadores === 0 ? 
+                        quina.quantidadeGanhadores === 0 ? 
                         "ACUMULOU!" :
-                        `${megasena.quantidadeGanhadores} GANHADORES`
+                        `${quina.quantidadeGanhadores} GANHADORES`
                     }
                 </div>
-                <div className="mega-data-concurso">
+                <div className="quina-data-concurso">
                     {
-                        `Concurso ${megasena.numeroDoConcurso} - ${megasena.dataPorExtenso}`
+                        `Concurso ${quina.numeroDoConcurso} - ${quina.dataPorExtenso}`
                     }
                 </div>
             </div>
