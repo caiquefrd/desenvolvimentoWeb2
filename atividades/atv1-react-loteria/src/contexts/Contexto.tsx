@@ -15,7 +15,8 @@ export function Provider({ children }: any) {
       setMegasena(r.megasena);
       setLotofacil(r.lotofacil);
       setQuina(r.quina);
-      console.log( r );
+      console.log('Dados');
+      console.log( r )
     })();
   }, []);
 
