@@ -10,7 +10,7 @@ const Sld = styled.div<Props>`
   padding: 20px;
   margin: 10px;
   border-radius: 10px;
-  border: 1px solid #aaa;
+  border: 3px solid #aaa;
   background-color: ${(props) => props.color};
 `;
 

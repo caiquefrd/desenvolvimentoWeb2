@@ -29,7 +29,7 @@ const WrapperSld = styled.div`
 `;
 
 const LabelSld = styled.label`
-    color: #444;
+    color: #FFF;
     font-weight: 600;
     font-size: 18px;
 `;
@@ -37,7 +37,7 @@ const LabelSld = styled.label`
 const InputSld = styled.input.attrs({type:"text"})`
     border-radius: 5px;
     padding: 5px;
-    color: #888;
+    color: #000;
     font-size: 16px;
     font-weight: 600;
     width: 120px;
