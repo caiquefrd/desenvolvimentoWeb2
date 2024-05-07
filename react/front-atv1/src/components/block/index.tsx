@@ -11,7 +11,7 @@ const Sld = styled.div`
   border-radius: 15px;
   border: 1px solid #ffffff;
   background-color: #000000;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 30px;
-  padding: 10px
+  padding: 15px
 `;

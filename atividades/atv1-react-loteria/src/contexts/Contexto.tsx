@@ -21,7 +21,7 @@ export function Provider({ children }: any) {
   }, []);
 
   return (
-    <Contexto.Provider value={{ megasena, lotofacil, quina}}>
+    <Contexto.Provider value={{ megasena, lotofacil, quina }}>
         {children}
     </Contexto.Provider>
   );

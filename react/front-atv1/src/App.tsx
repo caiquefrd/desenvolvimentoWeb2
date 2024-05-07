@@ -1,11 +1,13 @@
 import styled from "styled-components";
 import RGBColor from "./components/RGBColor";
+import HSLAColor from "./components/HSLAColor";
+import CMYKColor from "./components/CMYKColor";
 
 function App() {
   return <WrapperSld>
     <RGBColor></RGBColor>
-    <RGBColor></RGBColor>
-    <RGBColor></RGBColor>
+    <HSLAColor></HSLAColor>
+    <CMYKColor></CMYKColor>
   </WrapperSld>;
 }
 
