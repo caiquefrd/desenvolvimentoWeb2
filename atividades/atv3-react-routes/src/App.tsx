@@ -8,9 +8,6 @@ export default function App() {
   return (
     <WrapperSld>
       <Rotas/>
-      <RGB />
-      <HSLA />
-      <CMYK />
     </WrapperSld>
   );
 }
