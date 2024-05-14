@@ -1,29 +1,18 @@
-import "./index.css";
-import { useLoteria } from "../../hooks";
+import styled from "styled-components";
 
-export default function Megasena() {
-    const { megasena } = useLoteria();
-
+export default function Ball() {
     return (
-        <div className="mega-bloco-direita">
-            <div className="mega-linha-bola">
-                {
-                    megasena.dezenas.map(dezena =>
-                        <div className="mega-bola" key={dezena}>{dezena}</div>
-                    )
-                }
-            </div>
-
-        </div>
+        <Sld></Sld>
     );
 }
 
-// .mega-bola {
-//     font-size: 18px;
-//     font-weight: bold;
-//     background-color: #209869;
-//     color: #fff;
-//     border-radius: 25px;
-//     padding: 10px;
-//     margin: 0px 10px;
-// }
+
+const Sld = styled.div`
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #209869;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 0px 10px;
+`

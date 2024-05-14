@@ -1,3 +1,3 @@
-import { Contexto, Provider } from "./Contexto";
+// import { Contexto, Provider } from "./Contexto";
 
-export { Contexto, Provider };
+// export { Contexto, Provider };

@@ -1,10 +1,8 @@
-import { Provider } from "./contexts";
-import Principal from "./pages/Principal";
+// import { Provider } from "./contexts";
+import Main from "./pages/Main";
 
 export default function App() {
   return (
-    <Provider>
-      <Principal />
-    </Provider>
+      <Main/>
   );
 }

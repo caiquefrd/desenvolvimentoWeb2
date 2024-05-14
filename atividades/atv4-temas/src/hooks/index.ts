@@ -1,3 +1,3 @@
-import useLoteria from "./useLoteria";
+// import useLoteria from "./useLoteria";
 
-export { useLoteria };
+// export { useLoteria };
