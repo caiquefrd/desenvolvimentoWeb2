@@ -1,6 +1,4 @@
-import Lotofacil from "../components/Lotofacil";
-import Megasena from "../components/Megasena";
-import Quina from "../components/Quina";
+import Megasena from "../components/Ball";
 import { useLoteria } from "../hooks";
 import "./index.css";
 
