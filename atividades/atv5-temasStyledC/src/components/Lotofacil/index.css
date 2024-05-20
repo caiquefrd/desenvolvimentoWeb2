@@ -1,59 +1,57 @@
-.timemania-bloco-principal {
+.lotofacil-bloco-principal {
     display: flex;
-    flex-direction: row;
     padding: 30px 0px;
     border-bottom: 1px solid #ddd;
 }
 
-.timemania-bloco-loteria {
+.lotofacil-bloco-loteria {
     display: flex;
 }
 
-.timemania-nome-loteria {
+.lotofacil-nome-loteria {
     font-size: 28px;
     font-weight: bold;
-    color: #00ff48;
+    color: #930089;
     margin-left: 10px;
 }
 
-.timemania-bloco-estimativa {
+.lotofacil-bloco-estimativa {
     width: 240px;
     margin-left: 45px;
     margin-top: 15px;
 }
 
-.timemania-texto-estimativa {
+.lotofacil-texto-estimativa {
     font-size: 15px;
     color: #4c556c;
 }
 
-.timemania-valor-estimativa {
+.lotofacil-valor-estimativa {
     font-size: 20px;
     margin-top: 15px;
     font-weight: bold;
-    color: #00ff48;
+    color: #930089;
 }
 
-.timemania-bloco-direita {
+.lotofacil-bloco-direita {
     margin-left: 50px;
 }
 
-.timemania-linha-bola {
+.lotofacil-linha-bola {
     display: flex;
-    
+    border-bottom: 1px solid #ddd;
 }
 
-.timemania-bola {
+.lotofacil-bola {
     font-size: 20px;
     font-weight: bold;
-    background-color: #FFF600;
-    color: #049645;
+    color: #930089;
     border-radius: 25px;
     padding: 10px;
     margin: 0px 15px;
 }
 
-.timemania-texto-acumulou {
+.lotofacil-texto-acumulou {
     font-size: 28px;
     font-weight: bold;
     color: #0066b3;
@@ -61,7 +59,7 @@
     padding-left: 15px;
 }
 
-.timemania-data-concurso {
+.lotofacil-data-concurso {
     margin-top: 15px;
     color: #4c556c;
     padding-left: 15px;
