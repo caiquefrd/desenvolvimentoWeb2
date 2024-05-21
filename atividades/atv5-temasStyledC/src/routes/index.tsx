@@ -4,22 +4,24 @@ import Megasena from "../components/Megasena"
 import Quina from "../components/Quina"
 import styled from "styled-components"
 import Menu from "../components/Menu"
+import MegasenaT from "../components/MegasenaT"
 
 export default function Rotas() {
-    return (
-        <PageSld>
-            <BrowserRouter>
-                    <Menu/>
-                    <BodySld>
-                    <Routes>
-                    <Route path="/timemania" element={<Timemania />}/>
-                    <Route path="/megasena" element={<Megasena />}/>
-                    <Route path="/quina" element={<Quina />}/>
-                    </Routes>
-                    </BodySld>
-            </BrowserRouter>
-        </PageSld>
-    )
+  return (
+    <PageSld>
+      <BrowserRouter>
+        <Menu />
+        <BodySld>
+          <Routes>
+            <Route path="/timemania" element={<Timemania />} />
+            <Route path="/megasena" element={<Megasena />} />
+            <Route path="/quina" element={<Quina />} />
+            <Route path="/megasenaT" element={<MegasenaT/>} />
+          </Routes>
+        </BodySld>
+      </BrowserRouter>
+    </PageSld>
+  )
 }
 
 const PageSld = styled.div`
