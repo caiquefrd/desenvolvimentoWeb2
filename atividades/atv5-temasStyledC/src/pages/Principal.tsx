@@ -1,6 +1,5 @@
 import { useLoteria } from "../hooks";
 import Rotas from "../routes";
-import PrincipalBloco from "./PrincipalBloco";
 import "./index.css";
 
 export default function Principal() {
