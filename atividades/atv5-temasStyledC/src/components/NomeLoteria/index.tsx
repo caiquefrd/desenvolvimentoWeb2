@@ -1,21 +1,45 @@
 import styled from "styled-components";
-import trevo from "../../assets/trevo-megasena.png";
-import { useLoteria } from "../../hooks";
+import trevoMegasena from "../../assets/trevo-megasena.png";
+import trevoQuina from "../../assets/trevo-quina.png";
+import trevoTimemania from "../../assets/trevo-timemania.png";
+import React from "react";
 
-export default function NomeLoteria(){
+interface TrevoProps {
+    loteria: string;
+  }
+
+export default function NomeLoteria({ children, loteria }: any) {
+    let trevoLoteria;
+    switch (loteria) {
+        case "megasena":
+          trevoLoteria = trevoMegasena;
+          break;
+        case "quina":
+            trevoLoteria = trevoQuina;
+          break;
+        case "timemania":
+            trevoLoteria = trevoTimemania;
+          break;
+        default:
+          trevoLoteria = null;
+      }
     return (
         <Sld>
-                <img src={trevo} alt="" />
-                <span className="mega-nome-loteria">MEGA-SENA</span>
+             {trevoLoteria && <img src={trevoLoteria} alt={`Trevo ${loteria}`} />}
+            <SldNome>
+                {children}
+            </SldNome>
         </Sld>
-
     )
-
 }
 
+
 const Sld = styled.div`
-font-size: 28px;
+    display: flex;
+`
+const SldNome = styled.div`
+    font-size: 28px;
     font-weight: bold;
-    color: #209869;
+    color: ${(props) => props.theme.loteria};
     margin-left: 10px;
 `

@@ -5,6 +5,8 @@ import Quina from "../components/Quina"
 import styled from "styled-components"
 import Menu from "../components/Menu"
 import MegasenaT from "../components/MegasenaT"
+import TimemaniaT from "../components/TimemaniaT"
+import QuinaT from "../components/QuinaT"
 
 export default function Rotas() {
   return (
@@ -17,6 +19,8 @@ export default function Rotas() {
             <Route path="/megasena" element={<Megasena />} />
             <Route path="/quina" element={<Quina />} />
             <Route path="/megasenaT" element={<MegasenaT/>} />
+            <Route path="/timemaniaT" element={<TimemaniaT/>} />
+            <Route path="/quinaT" element={<QuinaT/>} />
           </Routes>
         </BodySld>
       </BrowserRouter>

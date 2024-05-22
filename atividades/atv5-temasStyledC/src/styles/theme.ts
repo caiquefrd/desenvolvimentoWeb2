@@ -1,4 +1,4 @@
-const mega = {
+const megasena = {
     acumulou: "#0066b3",
     data: "#4c556c",
     estimativa: "#209869",
@@ -24,6 +24,6 @@ const timemania = {
 }
 export {
     timemania,
-    mega,
+    megasena,
     quina
 };    
