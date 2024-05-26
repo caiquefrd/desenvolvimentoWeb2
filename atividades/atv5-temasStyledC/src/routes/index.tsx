@@ -1,7 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Timemania from "../components/Timemania"
-import Megasena from "../components/Megasena"
-import Quina from "../components/Quina"
 import styled from "styled-components"
 import Menu from "../components/Menu"
 import MegasenaT from "../components/MegasenaT"
@@ -15,9 +12,6 @@ export default function Rotas() {
         <Menu />
         <BodySld>
           <Routes>
-            <Route path="/timemania" element={<Timemania />} />
-            <Route path="/megasena" element={<Megasena />} />
-            <Route path="/quina" element={<Quina />} />
             <Route path="/megasenaT" element={<MegasenaT/>} />
             <Route path="/timemaniaT" element={<TimemaniaT/>} />
             <Route path="/quinaT" element={<QuinaT/>} />

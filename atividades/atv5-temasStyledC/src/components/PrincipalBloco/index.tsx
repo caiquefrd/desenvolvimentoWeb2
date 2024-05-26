@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export default function PrincipalBloco({children}:any){
+export default function PrincipalApp({children}:any){
     return(
         <Sld>{children}</Sld>
     )
