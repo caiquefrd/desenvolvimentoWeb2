@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import styled from "styled-components"
 import Menu from "../components/Menu"
-import MegasenaT from "../components/MegasenaT"
-import TimemaniaT from "../components/TimemaniaT"
-import QuinaT from "../components/QuinaT"
+import Megasena from "../components/Megasena"
+import Timemania from "../components/Timemania"
+import Quina from "../components/Quina"
 
 export default function Rotas() {
   return (
@@ -12,9 +12,9 @@ export default function Rotas() {
         <Menu />
         <BodySld>
           <Routes>
-            <Route path="/megasenaT" element={<MegasenaT/>} />
-            <Route path="/timemaniaT" element={<TimemaniaT/>} />
-            <Route path="/quinaT" element={<QuinaT/>} />
+            <Route path="/megasena" element={<Megasena/>} />
+            <Route path="/timemania" element={<Timemania/>} />
+            <Route path="/quina" element={<Quina/>} />
           </Routes>
         </BodySld>
       </BrowserRouter>

@@ -10,7 +10,7 @@ import Resultado from "../Resultado";
 import { Acumulou } from "../Acumulou";
 import Data from "../Data";
 
-export default function TimemaniaT() {
+export default function Timemania() {
     return (
         <ThemeProvider theme={timemania}>
             <Principal>

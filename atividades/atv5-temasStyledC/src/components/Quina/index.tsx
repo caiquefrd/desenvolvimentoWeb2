@@ -1,5 +1,6 @@
 import NomeLoteria from "../NomeLoteria"
 import Estimativa from "../Estimativa";
+import React from "react"
 import { megasena, quina, timemania } from "../../styles/theme"
 import { ThemeProvider } from 'styled-components';
 import Principal from "../Principal";
@@ -9,18 +10,18 @@ import Resultado from "../Resultado";
 import { Acumulou } from "../Acumulou";
 import Data from "../Data";
 
-export default function MegasenaT() {
+export default function Quina() {
     return (
-        <ThemeProvider theme={megasena}>
+        <ThemeProvider theme={quina}>
             <Principal>
                 <Esquerda>
-                    <NomeLoteria loteria="megasena" >MEGA-SENA</NomeLoteria>
-                    <Estimativa loteria="megasena" />
+                    <NomeLoteria loteria="quina" >QUINA</NomeLoteria>
+                    <Estimativa loteria="quina" />
                 </Esquerda>
                 <Direita>
-                    <Resultado loteria="megasena" />
+                    <Resultado loteria="quina" />
                     <Acumulou/>
-                    <Data loteria="megasena"/>
+                    <Data loteria="quina"/>
                 </Direita>
             </Principal>
         </ThemeProvider>
