@@ -20,9 +20,7 @@ const Sld = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  top: 4;
-  left: 10;
+  justify-content: center;
   width: 100%;
   height: 60px;
   z-index: 1000;
@@ -33,4 +31,5 @@ const Sld = styled.div`
 const RightSld = styled.div`
   display: flex;
   flex-direction: row;
+  margin: 0px 80px 0px 0px;
 `;

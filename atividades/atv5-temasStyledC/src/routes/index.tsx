@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import styled from "styled-components"
 import Menu from "../components/Menu"
-import Megasena from "../components/Megasena"
-import Timemania from "../components/Timemania"
-import Quina from "../components/Quina"
+import Megasena from "../pages/Megasena"
+import Timemania from "../pages/Timemania"
+import Quina from "../pages/Quina"
 
 export default function Rotas() {
   return (

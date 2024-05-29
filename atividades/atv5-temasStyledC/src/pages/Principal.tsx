@@ -1,6 +1,5 @@
 import Rotas from "../routes";
 import PrincipalApp from "../components/PrincipalApp";
-import { useLoteria } from "../hooks";
 
 export default function Principal() {
   return (
@@ -30,16 +29,6 @@ export default function Principal() {
 //       )}
 //     </>
 //   );
-// }
-
-// .principal-carregando {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   height: 100vh;
-//   width: 100vw;
-//   font-family: roboto;
 // }
 
 
